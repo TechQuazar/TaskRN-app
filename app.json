@@ -1,10 +1,8 @@
 {
   "expo": {
-    "name": "plant-disease-detection",
-    "slug": "plant-disease-detection",
+    "name": "projectsetup",
+    "slug": "projectsetup",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }

@@ -1,3 +1,4 @@
+
 # OSX
 #
 .DS_Store
@@ -31,6 +32,9 @@ local.properties
 *.iml
 *.hprof
 .cxx/
+android/
+ios/
+.vscode/
 
 # node.js
 #
