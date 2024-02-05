@@ -22,33 +22,6 @@ const Prescription = () => {
   const dispatch = useDispatch();
   let data = useSelector((state) => state.imageData.data);
 
-  // useFocusEffect(
-  //   React.useCallback(() => {
-  //     //fetch data for first render
-  //     console.log("Inside");
-  //     dispatch(
-  //       setData([
-  //         {
-  //           doctor: "Eric Foreman",
-  //           patient: "Remy Hadly",
-  //           medicine: [
-  //             { name: "C32-AS", dose: "1 per week", totalDose: 4 },
-  //             { name: "RedV", dose: "1 per day", totalDose: 7 },
-  //           ],
-  //         },
-  //         {
-  //           doctor: "Eric Foreman",
-  //           patient: "Remy Hadly",
-  //           medicine: [
-  //             { name: "C32-AS", dose: "1 per week", totalDose: 4 },
-  //             { name: "RedV", dose: "1 per day", totalDose: 7 },
-  //           ],
-  //         },
-  //       ])
-  //     );
-  //   }, [])
-  // );
-
   const db = firebase
     .app()
     .database("https://task-rn-fd3f2-default-rtdb.firebaseio.com/");
